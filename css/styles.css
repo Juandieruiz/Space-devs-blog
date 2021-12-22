@@ -169,3 +169,19 @@ form input[type="submit"]{
     border: 1px solid #ccc;
     cursor: pointer;
 }
+
+footer{
+    font-family: Helvetica, Arial;
+    color: white;
+    height: 47px;
+    background: rgba(51,51,51,0,70);
+    margin: 0 auto;
+    width: 65%;
+
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    line-height: 47px;
+
+}
