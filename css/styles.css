@@ -107,7 +107,7 @@ body{
     font-size: 14px;
     text-align: center;
     padding: 15px;
-    background: black;
+    background: rgb(57, 147, 202);
     color: white;
     text-decoration: none;
     margin-top: 10px;
@@ -174,14 +174,18 @@ footer{
     font-family: Helvetica, Arial;
     color: white;
     height: 47px;
-    background: rgba(51,51,51,0,70);
+    background: rgba( 51, 51, 51, 0,70);
     margin: 0 auto;
     width: 65%;
-
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 50px;
     line-height: 47px;
+}
 
+.bx-wrapper, .bx-viewport{
+    position: relative;
+    height: 250px !important;
+    padding: 0;
 }
