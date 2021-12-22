@@ -18,7 +18,7 @@ body{
     width: 65%;
     margin: 0 auto;
     margin-top: 30px;
-    padding: 20px;
+    padding: 25px;
     background: white;
     box-shadow: 0 0 0 2 gray;
     border-radius: 10px;
@@ -107,7 +107,7 @@ body{
     font-size: 14px;
     text-align: center;
     padding: 15px;
-    background: rgb(109,164,179);
+    background: black;
     color: white;
     text-decoration: none;
     margin-top: 10px;
@@ -115,4 +115,57 @@ body{
     display: block;
     width: 70px;
     margin-bottom: 20px;
+}
+
+#sidebar{
+    font-family: Helvetica, Arial, sans-serif;
+    width: 30%;
+    float: right;
+    
+
+}
+
+#sidebar h4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: lightskyblue;
+}
+
+#sidebar h4 span{
+    background: white;
+    padding: 5px;
+    
+}
+
+#sidebar img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+#sidebar p {
+    font-size: 13.5px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"]{
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+form input[type="submit"]{
+    background: #ccc;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    cursor: pointer;
 }
