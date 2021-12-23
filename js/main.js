@@ -78,4 +78,13 @@ $(document).ready(function(){
       $("#hacker-mode").click(function(){
         theme.attr("href", "css/hackermode.css");
       });
+
+      // Scroll arriba
+      $('.subir').click(function(){
+        $('html, body').animate({
+          scrollTop: 0
+        }, 500);
+
+        return false;
+      });
 });
