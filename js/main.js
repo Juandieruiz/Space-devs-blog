@@ -66,13 +66,16 @@ $(document).ready(function(){
             $('#posts').prepend(post);
       });
 
-      
+      // Selector de tema
+      let theme = $("#theme");
 
-      // forEach para cada post
-      /*
-              <h2>Titulo de Publicación</h2>
-                    <span class="date">Fecha de Publicación</span>
-                    <p> Texto de la Publicación </p>
-                    <a href="https://moure.dev/" class="button-autor" target="_blank">MOUREDEV</a>
-      */
+      $("#light-mode").click(function(){
+        theme.attr("href", "css/lightmode.css");
+      });
+      $("#dark-mode").click(function(){
+        theme.attr("href", "css/darkmode.css");
+      });
+      $("#hacker-mode").click(function(){
+        theme.attr("href", "css/hackermode.css");
+      });
 });

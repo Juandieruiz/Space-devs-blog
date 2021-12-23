@@ -1,0 +1,27 @@
+body{
+    background: black;
+    background-attachment: fixed;
+}
+#global{
+    background: rgb(48,48,48)
+}
+#logo{
+    background: black;
+}
+
+#menu ul li:hover{
+    background: black;
+}
+
+.button-autor{
+    background: black;
+}
+
+#sidebar h4{
+    color: gray;
+}
+
+#sidebar h4 span{
+    background: black
+    
+}

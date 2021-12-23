@@ -9,17 +9,13 @@
     clear: both;
 }
 
-body{
-    background: rgb(32,33,36);
-    background-attachment: fixed;
-}
+
 
 #global{
     width: 65%;
     margin: 0 auto;
     margin-top: 30px;
     padding: 25px;
-    background: white;
     box-shadow: 0 0 0 2 gray;
     border-radius: 10px;
 
@@ -30,7 +26,7 @@ body{
     font-size: 20px;
     letter-spacing: 4px;
     line-height: 75px;
-    background: rgb(32,33,36);
+    /* background: rgb(32,33,36); */
     color: white;
     text-align: center;
     width: 385px;
@@ -63,9 +59,6 @@ body{
     transition: all 300ms ease-in-out;
 }
 
-#menu ul li:hover{
-    background: rgb(109,164,179);
-}
 
 #menu a{
     display: block;
@@ -107,7 +100,6 @@ body{
     font-size: 14px;
     text-align: center;
     padding: 15px;
-    background: rgb(57, 147, 202);
     color: white;
     text-decoration: none;
     margin-top: 10px;
@@ -134,7 +126,6 @@ body{
 }
 
 #sidebar h4 span{
-    background: white;
     padding: 5px;
     
 }
@@ -155,17 +146,18 @@ form input[type="text"],
 form input[type="password"],
 form input[type="email"]{
     padding: 5px;
-    border-radius: 2px;
+    border-radius: 15px;
     border: 1px solid #ccc;
     width: 80%;
     margin-bottom: 10px;
     margin-top: 10px;
+
 }
 
 form input[type="submit"]{
     background: #ccc;
     padding: 10px;
-    border-radius: 2px;
+    border-radius: 10px;
     border: 1px solid #ccc;
     cursor: pointer;
 }
@@ -188,4 +180,39 @@ footer{
     position: relative;
     height: 250px !important;
     padding: 0;
+}
+
+#selector-theme{
+    position: fixed;
+    top: 40%;
+    background: rgba(51, 51, 51, 0.5);
+    width: 50px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+#light-mode,
+#dark-mode,
+#hacker-mode{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    display: block;
+    margin: 0px auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#light-mode{
+    background: white;
+}
+
+#dark-mode{
+    background: black;
+}
+
+#hacker-mode{
+    background: rgb(32,194,14);
 }

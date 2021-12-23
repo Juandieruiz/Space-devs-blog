@@ -1,0 +1,30 @@
+body{
+    background: rgb(240,242,245);
+    background-attachment: fixed;
+}
+
+#global{
+    background: white;
+
+}
+#logo{
+    background: rgb(24,119,242);
+}
+
+#menu ul li:hover{
+    background: rgb(24,119,242);
+}
+
+.button-autor{
+    background:rgb(24,119,242);
+}
+
+#sidebar h4{
+    color: rgb(24,119,242);
+    background-color: rgb(240,242,245);
+}
+
+#sidebar h4 span{
+    background: white;
+    
+}
