@@ -87,4 +87,18 @@ $(document).ready(function(){
 
         return false;
       });
+
+      //TODO: Login fake
+
+      // Recogemos los datos del formulario
+        $('#login form').submit(function(){
+          $('#form_email').val();
+
+          localStorage.setItem('form_email', form_email);
+        });
+
+        // let form_email = localStorage.getItem('form_email');
+        // $("#suscrito").html("Correo Suscrito");
+
+
 });
