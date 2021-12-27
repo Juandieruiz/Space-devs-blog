@@ -1,6 +1,7 @@
 // JavaScript Document
 $(document).ready(function(){
     
+  
   // Slider
     $('.galeria').bxSlider({
         pagerType: 'full',
@@ -105,7 +106,7 @@ $(document).ready(function(){
         // TODO: Funcionalidad de suscripcion y revision de suscripciones
         if(form_name != null){
           let about_parrafo = $("#about p");
-          
+
           about_parrafo.html(form_name + "<p><strong>Tu correo:</p>  "+ form_email +" <p>Se ha suscrito satisfactoriamente al newsletter.</p><strong>");
           about_parrafo.append("<p>Puedes cancelar la suscripción en cualquier momento.</p> <a href='#' id='cancelar'>Cancelar</a>");
           
