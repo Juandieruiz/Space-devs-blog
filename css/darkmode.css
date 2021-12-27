@@ -34,9 +34,16 @@ footer{
 .ui-accordion .ui-accordion-header
 {
     border-color: black;
-background: black;
-color: #FFFFFF;
-font-size: 18px;
+    background: black;
+    color: #FFFFFF;
+    font-size: 18px;
 }
 
+.ui-accordion .ui-accordion-content{
+    background: white;
+    color: rgb(48,48,48);
+    }
 
+    #space-back h2{
+        color: whitesmoke;
+    }
