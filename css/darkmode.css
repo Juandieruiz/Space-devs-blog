@@ -30,3 +30,13 @@ body{
 footer{
     color: whitesmoke
 }
+
+.ui-accordion .ui-accordion-header
+{
+    border-color: black;
+background: black;
+color: #FFFFFF;
+font-size: 18px;
+}
+
+

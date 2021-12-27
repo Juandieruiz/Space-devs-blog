@@ -10,10 +10,16 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link id="theme" rel="stylesheet" type="text/css" href="css/lightmode.css">
 
-
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
+    <!-- JQUERY UI CSS-->
+    <link rel="stylesheet" href="js/jquery-ui-1.13.0/jquery-ui.min.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.13.0/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.13.0/jquery-ui.theme.min.css">
+
+    <!-- JQUERY.JS -->
+    <script type="text/javascript" src="js/jquery-ui-1.13.0/jquery-ui.min.js"></script>
     
     <!-- Scripts -->
     <script type="text/javascript" src="js/about.js"></script>
@@ -54,7 +60,38 @@
         <!-- Contenido -->
         <section id="content">
             <div id="box">
+                <h2> Sobre mi</h2>
                 <!-- Cargar Accordeon about me -->
+                <!-- TODO: CHANGE COLOR FOR DARK & HACKER MODE -->
+                <div id="acordeon">
+                    <h3>¿Quien soy?</h3>
+                    <div>
+                        <p>
+                            Soy Juan Diego Gómez tengo 21 años,Actualmente me encuentro en la ciudad de Malaga, pero me encanta trabajar en cualquier
+                            lugar del mundo.
+                            Me gusta crear contenido en distintas redes sociales y difundir interes y conocimiento.
+                            Soy una persona apasionada por el desarrollo web, la programación y la tecnología.
+                            por eso me gusta trabajar con estos dos ámbitos.
+                        </p>
+                    </div>
+                    <h3>¿Que estudié?</h3>
+                    <div>
+                        <p>
+                            Inicialmente me gusto el Marketing, pero luego me interesé por la programación.
+                            Con 18 años empecé un Grado Superior de Telecomunicaciones e Informatica,
+                            y despues al finalizarlo me interesé por el desarrollo web. Donde escogí empezar aprender 
+                            de manera autodidacta y sin ningún conocimiento previo, hasta que hice un Bootcamp Full Stack
+                            y consegui mi primer trabajo como programador.
+                        </p>
+                    </div>
+                    <h3>Nuestro Blog</h3>
+                    <div>
+                        <p>
+                            En este blog podrás encontrar todo lo que necesitas saber sobre trabajo y vida de programadores,
+                            mantenerte actualizado con los post mas interesantes compartidos por desarrolladores profesionales.
+                        </p>
+                    </div>
+                </div>
             </div>
             
 
@@ -67,9 +104,9 @@
             </div>
 
             <div id="login">
-                <h4><span>¡Suscríbete a la newsletter!</span></h4>
+                <h4><span>¡Newsletter!</span></h4>
                 <form>
-                    <p> Recibirás artículos sobre Desarrollo y tecnologías.</p>
+                    <p> Suscribete y recibirás artículos sobre Desarrollo y tecnologías.</p>
                     <input type="text" id="form_name" name="name" placeholder="Nombre">
                     <input type="text" name="email" id="form_email" placeholder="Tu correo electrónico *">
                     <input type="submit" value="Entrar">

@@ -30,3 +30,16 @@ body{
 footer{
     color: white;
 }
+
+.ui-accordion .ui-accordion-content{
+    background: black;
+    color: green;
+    }
+
+.ui-accordion .ui-accordion-header{
+    border-color:black ;
+    background: black;
+    color: rgb(32,194,14);
+    font-size: 18px;
+}
+

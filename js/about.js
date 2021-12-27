@@ -1,6 +1,12 @@
 // JavaScript Document
 $(document).ready(function () {
 
+    // Acordeon
+    $('#acordeon').accordion();
+
+
+
+
   // Selector de tema
   let theme = $("#theme");
 
@@ -24,7 +30,6 @@ $(document).ready(function () {
   } else if (localStorage.getItem("theme") == "hacker-mode") {
     theme.attr("href", "css/hackermode.css");
   }
-
 
   // Scroll arriba
   $(".subir").click(function () {

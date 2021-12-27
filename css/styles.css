@@ -90,9 +90,11 @@
 .post{
     padding: 7px;
 }
-.post h2{
+h2{
     font-size: 30px;
     color: black;
+    font-family: Helvetica, Arial;
+    
 }
 
 .post .date{
@@ -250,4 +252,15 @@ footer{
     border-radius: 50%;
     background: rgba(51, 51, 51, 0.5);
     cursor: pointer;
+}
+
+#box{
+    width: 60%;
+    float: left;
+    margin-top: 40px;
+}
+
+#acordeon{
+    margin-top: 20px;
+    font-family: Helvetica, Arial;
 }
