@@ -3,7 +3,8 @@ body{
     background-attachment: fixed;
 }
 #global{
-    background: rgb(48,48,48)
+    background: rgb(48,48,48);
+    color: whitesmoke;
 }
 #logo{
     background: black;

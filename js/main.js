@@ -88,17 +88,36 @@ $(document).ready(function(){
         return false;
       });
 
-      //TODO: Login fake
+      //TODO: Suscripcion de usuarios al newsletter
 
       // Recogemos los datos del formulario
         $('#login form').submit(function(){
-          $('#form_email').val();
-
+          let form_name = $('#form_name').val();
+          let form_email = $('#form_email').val();
+          
+          localStorage.setItem('form_name', form_name);
           localStorage.setItem('form_email', form_email);
         });
 
-        // let form_email = localStorage.getItem('form_email');
-        // $("#suscrito").html("Correo Suscrito");
+        let form_name = localStorage.getItem('form_name');
+        let form_email = localStorage.getItem('form_email');
+
+        // TODO: Funcionalidad de suscripcion y revision de suscripciones
+        if(form_name != null){
+          let about_parrafo = $("#about p");
+          
+          about_parrafo.html(form_name + "<p><strong>Tu correo:</p>  "+ form_email +" <p>Se ha suscrito satisfactoriamente al newsletter.</p><strong>");
+          about_parrafo.append("<p>Puedes cancelar la suscripción en cualquier momento.</p> <a href='#' id='cancelar'>Cancelar</a>");
+          
+          $('#login').hide();
+
+          $('#cancelar').click(function(){
+            localStorage.clear();
+            location.reload();
+          });
+        }
 
 
-});
+
+
+        });
