@@ -15,7 +15,8 @@ body{
     background: rgb(24,119,242);
 }
 
-.button-autor{
+.button-autor,
+#contact-me{
     background:rgb(24,119,242);
 }
 

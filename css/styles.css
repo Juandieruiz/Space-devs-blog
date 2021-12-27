@@ -162,7 +162,7 @@ form input[type="password"],
 form textarea,
 form select,
 form input[type="email"]{
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
     border: 1px solid #ccc;
     width: 80%;
@@ -390,3 +390,22 @@ footer{
     text-align: center;
 }
 
+.help-block{
+    background-color: red;
+    color: whitesmoke;
+}
+
+#contact-me{
+    
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        float: right;
+        padding: 15px;
+        color: black;
+        text-decoration: none;
+        margin-top: 10px;
+        border-radius: 10px;
+        display: block;
+        width: 70px;
+        margin-bottom: 20px;
+    }

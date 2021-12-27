@@ -4,7 +4,8 @@ $(document).ready(function () {
     // Formulario de Contacto
     // Validacion plugin Jquery Validate
     $.validate({
-        lang: 'es'
+        lang: 'es',
+        errorMessagePosition: 'bottom'
     });
 
 

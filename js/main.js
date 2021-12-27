@@ -38,7 +38,7 @@ $(document).ready(function(){
           title: 'Empezando desde cero',
           date:'Post creado el día: ' + moment().date() + ' de '+ moment().format('MMMM') + ' del ' + moment().format('YYYY'),
           content: 'Estas listo para crear proyectos maravillosos, si estas aquí es por que lo deseas hacer.',
-          autor: 'JUANDIDEV',
+          autor: 'JuanDev',
           web: 'https://www.allmylinks.com/juandieruiz/',
         },
         // Publica Nuevo Post

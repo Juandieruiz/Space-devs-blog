@@ -14,8 +14,10 @@ body{
     background: black;
 }
 
-.button-autor{
+.button-autor,
+#contact-me{
     background: black;
+    color: whitesmoke;
 }
 
 #sidebar h4{
