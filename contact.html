@@ -1,0 +1,108 @@
+<!-- Index document -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Devs</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="css/lightmode.css">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Plugin Validación -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+
+
+    <!-- JQUERY.JS -->
+    <script type="text/javascript" src="js/jquery-ui-1.13.0/jquery-ui.min.js"></script>
+    
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/contact.js"></script>
+
+</head>
+
+<body>
+    <!-- Cambiador de Temas de Página -->
+    <div id="selector-theme">
+        <div id="light-mode"></div>
+        <div id="dark-mode"></div>
+        <div id="hacker-mode"></div>
+    </div>
+
+    <!-- Sección Global -->
+    <section id="global">
+
+        <!-- Cabecera -->
+        <header>
+            <div id="logo">
+                <h1>Juandieruiz</h1>
+            </div>
+            <div class="clearfix"></div>
+
+            <!-- Barra de Navegación -->
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Sobre mí</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    <li><a href="clock.html">Reloj</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        
+        
+        <!-- Contenido -->
+        <section id="content">
+            <div id="box">
+                <!-- Formulario de contacto -->
+                <h2>Contacto</h2>
+                <form action="" method="POST" id="form_contact">
+                    <input type="text" name="name" placeholder="Nombre *" data-validation="alphanumeric">
+                    <input type="email" name="email" placeholder="Email *"  data-validation="email">
+                    <input type="text" name="subject" placeholder="Asunto *"  data-validation="required">
+                    <hr> <br>
+                    <label for="presupuesto">Mi presupuesto es de:</label>
+                    <select name="presupuesto" data-validation="required">
+                        <option value="1">0 - 3.000€</option>
+                        <option value="2">+3.000€</option>
+                    </select><br>
+                    <label for="message">Mi proyecto trata de:</label>
+                    <textarea name="message" placeholder="Mensaje"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+                
+
+        <!-- SideBar -->
+        <aside id="sidebar">
+            <div id="about">
+                <h4>@JUANDIERUIZ</h4>
+                <img src="../Proyect-Blog/img/Juandieruiz.jpg" alt="Juandieruiz">
+            </div>
+
+            
+            <!-- TODO: Implementacion de usuario suscrito -->
+            <!-- <div id="suscrito">
+
+            </div> -->
+        </aside>
+
+        <div class="clearfix"></div>
+        </section>
+    </section>
+
+    <!-- Footer -->
+        <footer>
+            <p>Copyright &copy; 2022 - Juandieruiz</p>
+            <a href="#" class="subir">UP</a>
+        </footer>
+    
+    
+</body>
+</html>
